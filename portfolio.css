@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+
+    
 *,
 ::before,
 ::after {
@@ -21,7 +23,7 @@
     Line-height: 74% ;
   
 }
-.list a{
+#list a{
     text-decoration: none;
     color: #344563;
     font-size: 15px;
@@ -31,4 +33,63 @@
 ul{
    list-style-type: none;
    display: flex;
+   margin: auto 0;
+   cursor: pointer;
+}
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#list div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.greeting p{
+   position: absolute;
+   width: 50%;
+   color: #091E42;
+   font-size: 48px;
+   font-style: bold;
+   line-height: 60px;
+   line-height: 83%;
+   vertical-align: center;
+   height: 122px;
+   width: 920px;
+   top: 50%;
+   left: 20%;
+
+}
+.content{
+    top: 65%;
+    position: absolute;
+    left: 20%;
+    font-size: 20px;
+    vertical-align: top;
+    color: #344563;
+    height: 98px;
+    width: 920px;
+    
+}
+.background img{
+    width: 1398px;
+    height: 722px;
+    op: -576px;
+    eft: -819px;
+    position: relative;
+    padding: 20px;
+}
+.social img{
+    left: 20%;
+    top: 95%;
+    position: absolute;
+}
+.social p{
+    position: absolute;
+    left: 20%;
+    top: 85%;
+    text-transform: uppercase;
+    color: #7F8CFF;
 }
