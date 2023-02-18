@@ -25,9 +25,9 @@
 
 # 📖 Hello Microverse <a name="about-project"></a>
 
-> My project is about to build a simple webpage without complex codes.
+> My project is a simple portfolio setup.
 
-**Hello Microverse** is a project 
+**Mobile project setup** is a project 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -93,7 +93,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Christelle-12/Hello-Microverse.git
+  git clone https://github.com/Christelle-12/Mobile-project.git
 ```
 
 
