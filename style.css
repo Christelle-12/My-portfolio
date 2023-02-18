@@ -45,7 +45,7 @@ a:hover {
     width: 100%;
     background-image: url("images/Header\ bg.png");
     background-repeat: no-repeat;
-    height: calc(718px -60px);
+    height: calc(718px - 60px);
     background-position: center;
     background-size: contain;
     overflow: hidden;
