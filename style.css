@@ -42,12 +42,15 @@ a:hover {
   }
 
   .headline {
-    flex: 1 1 auto;
+    width: 100%;
     background-image: url("images/Header\ bg.png");
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+    height: calc(718px -60px);
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    position: relative;
+    border-bottom-left-radius: 5rem;
   }
 
   .headline > * {
