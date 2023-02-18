@@ -361,6 +361,7 @@ a:hover {
     margin: 12px initial;
     padding: 9px;
     align-items: center;
+    margin: 3px;
   }
 
   .languages-list .lang p {
@@ -371,6 +372,7 @@ a:hover {
     line-height: 20px;
     color: #253858;
     padding-left: 16px;
+    margin: 3px;
   }
 
   .frameworks {
@@ -396,6 +398,7 @@ a:hover {
     font-size: 20px;
     line-height: 24px;
     color: #000;
+    margin: 3px;
   }
 
   .sign {
