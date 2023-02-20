@@ -11,7 +11,7 @@ a:hover {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+/* @media only screen and (min-width: 375px) and (max-width: 768px) { */
   .main-wrapper {
     background: white;
     display: flex;
@@ -334,6 +334,7 @@ a:hover {
     flex-direction: column;
     width: auto;
     margin-bottom: 113.85px;
+
   }
 
   .lang-title {
@@ -354,13 +355,13 @@ a:hover {
   .languages-list .lang {
     display: flex;
     list-style-type: none;
-    width: auto;
-    height: 66.72px;
+    width: 303px;
+    height: 66.72px; 
     background: #f7f7f9;
     border-radius: 8px;
-    margin: 12px initial;
-    padding: 9px;
     align-items: center;
+    margin-top: 10px;
+    padding-top: 10px;
   }
 
   .languages-list .lang p {
@@ -403,4 +404,14 @@ a:hover {
   .sign {
     padding-right: 20px;
   }
+  .hex:hover {
+    background-color: rgb(153, 153, 236);
+    transition-duration: 0.5s;
+
+  }
+.hex:active {
+  background-color: blue;
 }
+
+  
+
