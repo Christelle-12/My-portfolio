@@ -45,19 +45,21 @@ a:hover {
   width: 100%;
   background-image: url("images/Header\ bg.png");
   background-repeat: no-repeat;
+
   /* height: calc(718px - 60px); */
   background-position: center;
+
   /* background-size: contain; */
   overflow: hidden;
   position: relative;
   border-bottom-left-radius: 5rem;
   background-size: 375px 718px;
+
   /* position: absolute;
     width: 375px;
     height: 718px;
     left: 0px;
     top: 0px */
-
 }
 
 .headline > * {
