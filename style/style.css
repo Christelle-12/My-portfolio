@@ -15,10 +15,6 @@ html {
   padding: 0;
 }
 
-label {
-  display: none;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -27,20 +23,6 @@ body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
-}
-
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #5e5f5f;
-  border-radius: 6px;
-}
-
-input {
-  outline: none;
-  border: none;
 }
 
 a {
@@ -84,10 +66,6 @@ li {
   display: none;
 }
 
-#header.shadow {
-  box-shadow: -3px -2px 35px 11px rgba(0, 0, 0, 0.15);
-}
-
 #header.open .bar {
   display: flex;
 }
@@ -107,17 +85,6 @@ li {
   animation-name: rotate;
   animation-duration: 1.7s;
 }
-
-/*
-@keyframes rotate {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(36px);
-  }
-} */
 
 .navbar {
   height: 100%;
