@@ -45,14 +45,15 @@ a:hover {
   .headline {
     width: 100%;
     background-image: url("images/Header\ bg.png");
-    background-size: 100%;
+    background-size: 380px 550px;
     border-radius: 0 0 0 100px;
     display: flex;
     flex-direction: column;
-    height: 500px;
     background-color: #fff;
     padding: 20px 10px 0 10px;
+    height: calc(718px - 60px);
     background-repeat: no-repeat;
+    overflow: hidden;
   }
 
   .headline > * {
@@ -70,6 +71,7 @@ a:hover {
     display: flex;
     align-items: center;
     color: #172b4d;
+    padding-top: 80px;
   }
 
   .text {
@@ -79,8 +81,6 @@ a:hover {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-
-    /* margin-top: 5px; */
     text-align: justify;
     text-justify: inter-word;
     width: auto;
