@@ -33,7 +33,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> html css
 
 <details>
   <summary>Client</summary>
@@ -117,7 +116,7 @@ To run tests, run the following command:
 Example command:
 
 ```sh
-No tests required 
+Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters 
 ```
 
 
