@@ -77,13 +77,14 @@ a:hover {
   .text {
     font-family: sans-serif, "Poppins";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
     text-align: justify;
     text-justify: inter-word;
     width: auto;
+    height: 150px;
     padding-right: 20px;
   }
 
@@ -164,6 +165,10 @@ a:hover {
     flex-direction: column;
     gap: 12px;
     flex-wrap: wrap;
+  }
+  .titles p{
+    color: #344563;
+
   }
 
   .project-title {
