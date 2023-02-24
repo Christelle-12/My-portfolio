@@ -33,26 +33,13 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> html css
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>html</li>
+    <li>css</li>
+    <li>javascript</li>
   </ul>
 </details>
 
@@ -105,7 +92,7 @@ Install this project with:
 Example command:
 
 ```sh
-  no installations required
+  node.js V16 and above
 ```
 
 
@@ -129,7 +116,7 @@ To run tests, run the following command:
 Example command:
 
 ```sh
-No tests required 
+Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters 
 ```
 
 
