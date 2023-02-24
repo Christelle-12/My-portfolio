@@ -43,7 +43,7 @@ a:hover {
 
 .headline {
   width: 100%;
-  background-image: url("images/Header\ bg.png");
+  background-image: url("/images/header-shapes.png");
   background-size: 380px 550px;
   border-radius: 0 0 0 100px;
   display: flex;
