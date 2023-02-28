@@ -422,18 +422,20 @@ a:hover {
 .hex:active {
   background-color: blue;
 }
+
 .container-form {
   width: 100%;
   height: calc(718px - 60px);
   display: flex;
   flex-direction: column;
-  background-color: #6070FF ;
+  background-color: #6070ff;
   background-image: url(images/contact_form_shapes-mobile_480.png);
   background-repeat: no-repeat;
   background-size: contain;
   border-top-left-radius: 15%;
   background-position: top right;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -442,22 +444,23 @@ a:hover {
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
-
 }
+
 .contact h1 {
   font-family: "poppins", sans-serif;
-  color:white;
+  color: white;
   font-weight: 700;
   font-size: 40px;
   position: absolute;
 }
+
 .contact-text {
-  font-family: "poppins" , sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   top: 4610px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #ebebff;
   position: absolute;
@@ -509,4 +512,13 @@ a:hover {
   font-size: 17px;
   color: #6070ff;
   border-color: white;
+}
+
+#button:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#button:active {
+  background-color: #172b4d;
 }
