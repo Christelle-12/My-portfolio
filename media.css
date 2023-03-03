@@ -1,7 +1,7 @@
 /* desktop version */
 @media only screen and (min-width: 768px) {
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-  
+
   body {
     background-color: #e5e5e5;
   }
@@ -233,6 +233,7 @@
     letter-spacing: 0.03em;
     color: #396df2;
   }
+
   /* second-desktop-card */
   .third-desk-card {
     display: grid;
@@ -244,19 +245,21 @@
     margin-left: 80px;
     padding-right: 10px;
     background-color: #fff;
-    }
+  }
+
   .third-image {
     grid-column: 2/3;
     grid-row: 1/2;
-    padding-left:70px;
+    padding-left: 70px;
     padding-top: 20px;
     padding-right: 20px;
-    
-    }
+  }
+
   .third-text {
     grid-column: 1/2;
     grid-row: 1/2;
   }
+
   .third-text h2 {
     font-family: "poppins", sans-serif;
     font-weight: 700;
@@ -264,6 +267,7 @@
     color: #091e42;
     padding-left: 70px;
   }
+
   .third-text p {
     color: #344563;
     font-weight: 400;
@@ -273,8 +277,8 @@
     width: 530px;
     padding-left: 70px;
     line-height: 26px;
-
   }
+
   /* third-desktop-card */
   .fourth-desk-card {
     display: grid;
@@ -287,11 +291,13 @@
     margin-right: 80px;
     background-color: #fff;
   }
+
   .fourth-desk-card img {
     width: 534px;
     height: 448px;
     padding: 15px 10px;
   }
+
   .facebook h2 {
     font-family: "poppins", sans-serif;
     font-weight: 700;
@@ -299,6 +305,7 @@
     color: #091e42;
     padding-left: 70px;
   }
+
   .facebook p {
     color: #344563;
     font-weight: 400;
@@ -308,55 +315,58 @@
     width: 530px;
     padding-left: 70px;
     line-height: 26px;
+  }
 
-}
-/* fourth-desktop-card */
-.fifth-desk-card {
-  display: grid;
-  grid-template-columns: 612px 564px;
-  width: 1260px;
-  height: 492px;
-  border-radius: 24px;
-  margin-top: 90px;
-  margin-left: 80px;
-  padding-right: 10px;
-  background-color: #fff;
-}
-.fifth-desk-card img {
-  width: 544px;
-  height: 448px;
-  padding-top: 20px;
-  padding-left: 90px;
+  /* fourth-desktop-card */
+  .fifth-desk-card {
+    display: grid;
+    grid-template-columns: 612px 564px;
+    width: 1260px;
+    height: 492px;
+    border-radius: 24px;
+    margin-top: 90px;
+    margin-left: 80px;
+    padding-right: 10px;
+    background-color: #fff;
+  }
 
-}
-.fifth-list-tonic {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 85px;
-  width: 350px;
-}
-.fifth-li {
-  color: #6070ff;
-  width: 80px;
-  height: 30px;
-  list-style: none;
-  font-family: "poppins", sans-serif;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  padding: 4px 12px;
-  margin: 4px;
-  background: #ebebff;
-  border-radius: 8px;
-  justify-content: space-between;
-}
-#ruby {
-  width: 100px;
-}
-#html {
-  width: 50px;
-}
+  .fifth-desk-card img {
+    width: 544px;
+    height: 448px;
+    padding-top: 20px;
+    padding-left: 90px;
+  }
 
+  .fifth-list-tonic {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 85px;
+    width: 350px;
+  }
+
+  .fifth-li {
+    color: #6070ff;
+    width: 80px;
+    height: 30px;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+    margin: 4px;
+    background: #ebebff;
+    border-radius: 8px;
+    justify-content: space-between;
+  }
+
+  #ruby {
+    width: 100px;
+  }
+
+  #html {
+    width: 50px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -367,12 +377,15 @@
   .second-desk-card {
     display: none;
   }
+
   .third-desk-card {
     display: none;
   }
+
   .fourth-desk-card {
     display: none;
   }
+
   .fifth-desk-card {
     display: none;
   }
