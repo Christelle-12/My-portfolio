@@ -426,7 +426,7 @@ a:hover {
 
 .container-form {
   width: 100%;
-  height: calc(718px - 60px);
+  height: calc(718px - 45px);
   display: flex;
   flex-direction: column;
   background-color: #6070ff;
