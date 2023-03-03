@@ -464,8 +464,7 @@ a:hover {
   letter-spacing: 0;
   text-align: center;
   color: #ebebff;
-  position: absolute;
-  margin: 10px;
+  margin-top: 220px;
 }
 
 .fields {

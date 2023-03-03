@@ -4,6 +4,8 @@
 
   body {
     background-color: #e5e5e5;
+    height: 445rem;
+    padding: 10px;
   }
 
   .main-wrapper {
@@ -69,6 +71,7 @@
     height: calc(718px - 60px);
     padding-left: 20px;
     padding-right: 20px;
+    width: 1400px;
   }
 
   .headline h1 {
@@ -82,7 +85,7 @@
     padding-top: 80px;
   }
 
-  .text {
+  .texts {
     padding-left: 350px;
     font-family: "poppins", sans-serif;
     font-weight: 400;
@@ -95,19 +98,15 @@
 
   .headline h2 {
     padding-left: 350px;
-
-    /* font-family: "poppins",sans-serif; */
   }
 
-  .social-media {
-    padding-left: 350px;
-  }
+
 
   .works {
     display: none;
   }
 
-  .about-myself {
+  .myself {
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -367,6 +366,101 @@
   #html {
     width: 50px;
   }
+
+  .about-myself {
+    width: 1450px;
+    margin-bottom: 200.75rem;
+    margin-top: 148.79rem;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+
+  .about {
+    color: #091e42;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    width: 100px;
+    padding-left: 120px;
+    padding-bottom: 30px;
+  }
+
+  .text {
+    color: #344563;
+    width: 580px;
+    height: 102px;
+    padding-left: 120px;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #connect {
+    color: #7f8cff;
+    padding-left: 120px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .social-media {
+    padding-left: 135px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .see-project {
+    padding-left: 120px;
+  }
+
+  .hex {
+    color: #396df2;
+    width: 180px;
+    height: 24px;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+  }
+
+  .langusge {
+    color: #344563;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+  }
+
+  /* .nested {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    width: 300px;
+  } */
+
+  /* .nested {
+    background-color: red;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .nested .lang  {
+    width: 180px;
+  } */
+  .container-form {
+    width: 1450px;
+    background-image: url(images/contact-form-back.png);
+    display: flex;
+    align-items: center;
+    height: 96vh;
+    bottom: 0;
+    position: absolute;
+    transform: translateY(520%);
+
+    /* top: 80%; */
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -389,4 +483,8 @@
   .fifth-desk-card {
     display: none;
   }
+
+  /* #about-cont {
+    display: none;
+  } */
 }
