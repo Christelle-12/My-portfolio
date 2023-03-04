@@ -61,7 +61,6 @@
   }
 
   .headline {
-    /* width: 100%; */
     background-image: url("images/header-desk-back.png");
     background-size: 1380px 616px;
     border-radius: 0 0 0 100px;
@@ -94,6 +93,10 @@
     line-height: 28px;
     padding-right: 180px;
     color: #344563;
+  }
+
+  #media {
+    padding-left: 350px;
   }
 
   .headline h2 {
@@ -371,7 +374,55 @@
     margin-top: 148.79rem;
     display: flex;
     flex-direction: row;
-    height: auto;
+    height: 700px;
+  }
+
+  .about-text {
+    width: 700px;
+  }
+
+  .languages-list {
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-li .nested {
+    display: grid;
+    background-color: #fff;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+  }
+
+  #jslang {
+    grid-column: 1/2;
+    width: 122px;
+    height: 120px;
+    background-color: #f7f7f9;
+    margin-left: 30px;
+    border-radius: 8px;
+  }
+
+
+  #htmllang {
+    grid-column: 2/3;
+    width: 122px;
+    height: 120px;
+    grid-row: 1/2;
+    background-color: #f7f7f9;
+    border-radius: 8px;
+    margin-left: 20px;
+  }
+
+  #csslang {
+    grid-column: 3/4;
+    border-radius: 8px;
+    width: 122px;
+    height: 120px;
+    background-color: #f7f7f9;
   }
 
   .about {
@@ -430,23 +481,6 @@
     font-size: 21px;
   }
 
-  /* .nested {
-    display: grid;
-    grid-template-columns: 50px 50px;
-    width: 300px;
-  } */
-
-  /* .nested {
-    background-color: red;
-    width: 900px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .nested .lang  {
-    width: 180px;
-  } */
   .container-form {
     width: 1450px;
     background-image: url(images/contact-form-back.png);
@@ -456,8 +490,6 @@
     bottom: 0;
     position: absolute;
     transform: translateY(520%);
-
-    /* top: 80%; */
   }
 
   .contact {
