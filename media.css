@@ -53,10 +53,16 @@
     padding-bottom: 40px;
     padding-top: 10px;
   }
-
+ 
   .logo-place {
     margin-left: 12px;
+  
   }
+  .logo-place :hover {
+      margin-left: 12px;
+      transform: rotate(90deg);
+  }
+
 
   .my-logo {
     padding: 10px 12px 10px 12px;
@@ -261,7 +267,7 @@
     letter-spacing: 0.03em;
     color: #396df2;
   }
-
+   
   /* second-desktop-card */
   .third-desk-card {
     display: grid;
