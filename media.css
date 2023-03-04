@@ -255,6 +255,10 @@
     border-radius: 8px;
   }
 
+  .project-container:hover {
+    transform: scale(1.5);
+  }
+
   .project-container button {
     border-color: #dfe1e6;
     border-width: 0;
