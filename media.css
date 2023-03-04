@@ -20,7 +20,7 @@
     flex-direction: column;
     border-bottom-left-radius: 80px;
     max-width: 100%;
-    width: 100%;
+    width: 80%;
   }
 
   .menu {
@@ -70,7 +70,7 @@
 
   .headline {
     background-image: url("images/header-desk-back.png");
-    background-size: 100% 616px;
+    background-size: 80% 616px;
     border-radius: 0 0 0 100px;
     display: flex;
     flex-direction: column;
@@ -672,7 +672,7 @@
 
   #java p {
     font-family: "poppins", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   #html {
@@ -684,7 +684,7 @@
 
   #html p {
     font-family: "poppins", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   #html img {
@@ -704,7 +704,7 @@
 
   #css p {
     font-family: "poppins", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .frameworks {
