@@ -42,9 +42,9 @@ a:hover {
 }
 
 .headline {
-  width: 100%;
-  background-image: url("/images/header-shapes.png");
-  background-size: 380px 550px;
+  /* width: 100%; */
+  background-image: url("images/header-shapes.png");
+  background-size: 100% 550px;
   border-radius: 0 0 0 100px;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ a:hover {
   padding-top: 80px;
 }
 
-.text {
+.texts {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -93,6 +93,7 @@ a:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  color: #6070ff;
 }
 
 .social-media {
@@ -425,7 +426,7 @@ a:hover {
 
 .container-form {
   width: 100%;
-  height: calc(718px - 60px);
+  height: calc(718px - 45px);
   display: flex;
   flex-direction: column;
   background-color: #6070ff;
@@ -463,8 +464,7 @@ a:hover {
   letter-spacing: 0;
   text-align: center;
   color: #ebebff;
-  position: absolute;
-  margin: 10px;
+  margin-top: 220px;
 }
 
 .fields {

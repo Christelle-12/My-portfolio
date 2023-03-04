@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="whole">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyPortfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="media.css"/>
 </head>
 
 <body>
@@ -16,23 +17,34 @@
                 <a href="./index.html" class="my-logo hex">My Logo</a>
             </div>
             <nav>
-                <figure class="icons">
+                <figure class="menu">
                     <img src="images/Icons/Union.png" alt="Icons" />
                 </figure>
+                <ul class="desktop-list">
+                    <li>
+                        <a href="#">portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
             </nav>
         </header>
         <section class="headline">
             <h1>I’m Christelle <br> Glad to see you!</h1>
             
-            <p class="text">
+            <p class="texts">
                 I’m a software developer! I can help you build a product , feature or
                 website Look through some of my work and experience! If you like what
                 you see and have a project you need coded, don’t hestiate to contact
                 me.
             </p>
             <h2 class="hex connect">LET’S CONNECT</h2>
-            <ul class="social-media">
-                <li clalss="socials">
+            <ul class="social-media" id="media">
+                <li class="socials">
                     <a href="#"><img src="images/socials/twitter.svg" /></a>
                 </li>
                 <li clalss="socials">
@@ -50,6 +62,133 @@
             </ul>
         </section>
     </div>
+    <!-- desktop version -->
+    <div class="container-cards">
+        <div class="second-desk-card" class="myself">
+            <img src="images/Portoflio Card/first desk pic.png" alt="Nature">
+            <div class="tonic">
+                <h2>
+                    Tonic
+                </h2>
+                <ul class="first-list-tonic">
+                    <li class="canopy">CANOPY</li>
+                    <li class="bullet"><span class="dot"></span></li>
+                    <li class="o-li">Back&nbsp;End&nbsp;Dev</li>
+                    <li class="bullet"><span class="dot"></span></li>
+                    <li class="o-li">2015</li>
+        
+                </ul>
+                <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>
+                <ul class="second-list-tonic">
+                    <li class="second-li">html</li>
+                    <li class="second-li">css</li>
+                    <li class="second-li">javascript</li>
+        
+                </ul>
+                <div class="project-container">
+                    <button type="button">
+                        See project
+                    </button>
+                </div>
+            </div>
+        
+        </div>
+        <!-- third-card -->
+        <div class="third-desk-card" class="myself">
+            <img class="third-image" src="images/Portoflio Card/second desk pic.png" alt="multi-post Stories">
+            <div class="third-text">
+                <h2>Multi-Post Stories</h2>
+                <ul class="first-list-tonic">
+                    <li class="canopy">CANOPY</li>
+                    <li class="bullet"><span class="dot"></span></li>
+                    <li class="o-li">Back&nbsp;End&nbsp;Dev</li>
+                    <li class="bullet"><span class="dot"></span></li>
+                    <li class="o-li">2015</li>
+        
+                </ul>
+                <p>
+                    A daily selection of privately personalized reads; no accounts or
+                    sign-ups required.
+                </p>
+                <ul class="second-list-tonic">
+                    <li class="second-li">html</li>
+                    <li class="second-li">css</li>
+                    <li class="second-li">javascript</li>
+        
+                </ul>
+                <div class="project-container">
+                    <button type="button">
+                        See project
+                    </button>
+                </div>
+            </div>
+        
+        </div>
+        <!-- fourth card -->
+        <div class="fourth-desk-card" class="myself">
+            <img src="images/Portoflio Card/third desk pic.png" alt="Nature">
+            <div class="facebook">
+                <h2>
+                    Facebook 360
+                </h2>
+                <ul class="first-list-tonic">
+                    <li class="canopy">CANOPY</li>
+                    <li class="bullet"><span class="dot"></span></li>
+                    <li class="o-li">Back&nbsp;End&nbsp;Dev</li>
+                    <li class="bullet"><span class="dot"></span></li>
+                    <li class="o-li">2015</li>
+        
+                </ul>
+                <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>
+                <ul class="second-list-tonic">
+                    <li class="second-li">html</li>
+                    <li class="second-li">css</li>
+                    <li class="second-li">javascript</li>
+        
+                </ul>
+                <div class="project-container">
+                    <button type="button">
+                        See project
+                    </button>
+                </div>
+            </div>
+        
+        </div>
+        <div class="fifth-desk-card" class="myself" id="spacingfive">
+            <img src="images/Portoflio Card/fourth desk pic.png" alt="Uber navigation">
+            <div class="third-text">
+                <h2>Uber Navigation</h2>
+                <ul class="first-list-tonic">
+                    <li class="canopy">Uber</li>
+                    <li class="bullet"><span class="dot"></span></li>
+                    <li class="o-li">Lead&nbsp;Developer</li>
+                    <li class="bullet"><span class="dot"></span></li>
+                    <li class="o-li">2018</li>
+        
+                </ul>
+                <p>
+                    A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer:
+                    your car.
+                </p>
+                <ul class="fifth-list-tonic">
+                    <li class="fifth-li" id="html">html</li>
+                    <li class="fifth-li" id="ruby">Ruby on rails</li>
+                    <li class="fifth-li">javascript</li>
+        
+                </ul>
+                <div class="project-container">
+                    <button type="button">
+                        See project
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
     <!-- works -->
     <div class="works">
         <section class="grid-items project-1">
@@ -162,92 +301,134 @@
                 </div>
             </div>
         </section>
+
     </div>
     <!-- About myself -->
-    <div class="about-myself">
-        <h2 class="about">About Myself</h2>
-        <p class="text">
-            Hello I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like what
-            you see and have a project you need coded, don’t hestiate to contact me.
-        </p>
-        <h2 class="hex connect">LET’S CONNECT</h2>
-        <ul class="social-media">
-            <li clalss="socials">
-                <a href="#"><img src="images/socials/twitter.svg" /></a>
-            </li>
-            <li clalss="socials">
-                <a href="#"><img src="images/socials/Linkedin.svg" /></a>
-            </li>
-            <li clalss="socials">
-                <a href="#"><img src="images/socials/m.svg" /></a>
-            </li>
-            <li clalss="socials">
-                <a href="#"><img src="images/socials/Vector1.svg" /></a>
-            </li>
-            <li clalss="socials">
-                <a href="#"><img src="images/socials/Vector2.svg" /></a>
-            </li>
-        </ul>
-        <div class="see-project">
-            <a href="#"><button type="button" class="hex">Get my resume</button></a>
+
+    <div class="about-myself" >
+    
+            <div class="about-text" class="text-about">
+                <h2 class="about">About Myself</h2>
+                <p class="texts" id="texte">
+                    Hello I’m a software developer! I can help you build a product , feature
+                    or website Look through some of my work and experience! If you like what
+                    you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+                <h2 class="hex connect" id="connect">LET’S CONNECT</h2>
+                <ul id="platforms">
+                    <div>
+                        <li><a href="#"><img src="images/socials/twitter.svg" alt="twitter"></a></li>
+                        <li><a href="#"><img src="images/socials/Linkedin.svg" alt="Linkedin"></a></li>
+                        <li><a href="#"><img src="images/socials/m.svg" alt="svg"></a></li>
+                        <li><a href="#"><img src="images/socials/Vector1.svg" alt="vectori1"></a></li>
+                        <li><a href="#"><img src="images/socials/Vector2.svg" alt="vectori2"></a></li>
+
+                    </div>
+                    
+                </ul>
+                <ul class="social-media" id="medias">
+                    <li class="socials">
+                        <a href="#"><img src="images/socials/twitter.svg" /></a>
+                    </li>
+                    <li class="socials">
+                        <a href="#"><img src="images/socials/Linkedin.svg" /></a>
+                    </li>
+                    <li class="socials">
+                        <a href="#"><img src="images/socials/m.svg" /></a>
+                    </li>
+                    <li class="socials">
+                        <a href="#"><img src="images/socials/Vector1.svg" /></a>
+                    </li>
+                    <li class="socials">
+                        <a href="#"><img src="images/socials/Vector2.svg" /></a>
+                    </li>
+                </ul>
+                <div class="see-project">
+                    <a href="#"><button type="button" class="hex">Get my resume</button></a>
+                </div>
+        
+            </div>
+        
+            <div class="languages-list" class="liste-languages">
+                <ul>
+                    <li class="lang-title">
+                        <p class="langusge">Languages</p>
+                        <img class="downarrow" src="images/Icons/vector.png" alt="arrow">
+        
+                        <img class="allow-down" src="images/Icons/vector.png" alt="allow-down" />
+                    </li>
+                    <li class="newlist">
+                        <ul class="new-nested-li">
+                            <li id="java"><img src="images/langusges/js.png" alt="js">
+                                <p>JavaSript</p>
+                            </li>
+                            <li id="html"><img src="images/langusges/html.png" alt="html">
+                                <p>HTML</p>
+                            </li>
+                            <li id="css"><img src="images/langusges/css.png" alt="css">
+                            <p>CSS</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="main-li">
+                        <ul class="nested">
+                            <li class="lang" id="jslang">
+                                <img src="images/langusges/js.png" alt="js" />
+                                <p>JavaSript</p>
+                            </li>
+                            <li class="lang" id="htmllang">
+                                <img src="images/langusges/html.png" alt="js" />
+                                <p>HTML</p>
+                            </li>
+                            <li class="lang" id="csslang">
+                                <img src="images/langusges/css.png" alt="js" />
+                                <p>CSS</p>
+                            </li>
+                        </ul>
+                    </li>
+        
+                    <li class="frameworks">
+                        <p class="langusge">Frameworks</p>
+                        <p class="sign">></p>
+                    </li>
+        
+                    <li class="frameworks">
+                        <p class="langusge">Skills</p>
+                        <p class="sign">></p>
+                    </li>
+                </ul>
+            </div>
+        
+        <!-- contact -->
+        <div class="container-form">
+            <header class="contact">
+                <h1>Contact&nbsp;me</h1>
+                <p class="contact-text">
+                    If you have an application you are interested in developing, a feature that you need built or a project that
+                    needs coding. I’d love to help with it
+                </p>
+            </header>
+            <form action="https://formspree.io/f/mjvdrgzw" method="post" class="form">
+                <ul class="fields">
+                    <li>
+                        <input type="text" id="name" maxlength="30" name="user_name" placeholder="Type your name here" required>
+                    </li>
+                    <li>
+                        <input type="email" id="mail" name="user_email" placeholder="Enter your email address" required>
+                    </li>
+                    <li>
+                        <textarea name="user_message" id="msg" maxlength="500" placeholder="Write your message here"
+                            required></textarea>
+                    </li>
+                    <li>
+                        <button id="button" type="submit">Get in touch</button>
+                    </li>
+                </ul>
+            </form>
         </div>
 
-        <div class="languages-list">
-            <ul>
-                <li class="lang-title">
-                    <p class="langusge">Languages</p>
-                    <img class="allow-down" src="images/Icons/vector.png" alt="allow-down" />
-                </li>
-                <li class="lang">
-                    <img src="images/langusges/js.png" alt="js" />
-                    <p>JavaSript</p>
-                </li>
-                <li class="lang">
-                    <img src="images/langusges/html.png" alt="js" />
-                    <p>HTML</p>
-                </li>
-                <li class="lang">
-                    <img src="images/langusges/css.png" alt="js" />
-                    <p>CSS</p>
-                </li>
-                <li class="frameworks">
-                    <p class="langusge">Frameworks</p>
-                    <p class="sign">></p>
-                </li>
-
-                <li class="frameworks">
-                    <p class="langusge">Skills</p>
-                    <p class="sign">></p>
-                </li>
-            </ul>
-        </div>
     </div>
-    <!-- contact -->
-    <div class="container-form">
-        <header class="contact">
-            <h1>Contact&nbsp;me</h1>
-            <p class="contact-text">
-                If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
-            </p>
-        </header>
-        <form   action="https://formspree.io/f/mjvdrgzw" method="post" class="form">
-            <ul class="fields">
-                <li>
-                    <input type="text" id="name" maxlength="30" name="user_name" placeholder="Type your name here" required>
-                </li>
-                <li>
-                    <input type="email" id="mail" name="user_email" placeholder="Enter your email address" required>
-                </li>
-                <li>
-                    <textarea name="user_message" id="msg" maxlength="500" placeholder="Write your message here" required></textarea>
-                </li>
-                <li>
-                    <button id="button" type="submit">Get in touch</button>
-                </li>
-            </ul>
-        </form>
-    </div>
+    
 </body>
 
 </html>
