@@ -20,7 +20,7 @@
     flex-direction: column;
     border-bottom-left-radius: 80px;
     max-width: 100%;
-    width: 100%;
+    width: 80%;
   }
 
   .menu {
@@ -47,7 +47,7 @@
     flex: 1 1 auto;
     display: flex;
     height: 48px;
-    width: 87.5rem;
+    width: 80%;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 40px;
@@ -75,7 +75,7 @@
 
   .headline {
     background-image: url("images/header-desk-back.png");
-    background-size: 100% 616px;
+    background-size: 91% 616px;
     border-radius: 0 0 0 100px;
     display: flex;
     flex-direction: column;
@@ -131,13 +131,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 5%;
+    margin-left: 0%;
+    margin-right: 20%;
   }
 
   .second-desk-card {
     display: grid;
     grid-template-columns: 544px 612px;
-    width: 90%;
+    width: 75.8%;
     height: 492px;
     gap: 22px;
     border-radius: 24px;
@@ -277,7 +278,7 @@
     grid-template-columns: 612px 544px;
 
     /* width: 78.75rem; */
-    width: 90%;
+    width: 75.8%;
     height: 492px;
     border-radius: 24px;
     position: relative;
@@ -326,7 +327,7 @@
     grid-template-columns: 554px 612px;
 
     /* width: 79.375rem; */
-    width: 90%;
+    width: 75.8%;
     height: 492px;
     border-radius: 24px;
     margin-top: 80px;
@@ -368,7 +369,7 @@
     grid-template-columns: 612px 564px;
 
     /* width: 78.75rem; */
-    width: 90%;
+    width: 75.8%;
     height: 492px;
     border-radius: 24px;
     margin-top: 90px;
@@ -681,7 +682,7 @@
 
   #java p {
     font-family: "poppins", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   #html {
@@ -693,7 +694,7 @@
 
   #html p {
     font-family: "poppins", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   #html img {
@@ -713,7 +714,7 @@
 
   #css p {
     font-family: "poppins", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .frameworks {
