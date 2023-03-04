@@ -526,6 +526,7 @@
     background-image: url(images/contact-form-back.png);
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 47rem;
     margin-bottom: 0;
     margin-top: 0;
