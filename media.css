@@ -416,7 +416,7 @@
   }
 
   .about-myself {
-    width: 100%;
+    width: 80%;
 
     /* width: 87.5rem; */
     border-top-right-radius: 10rem;
@@ -425,6 +425,7 @@
     flex-direction: row;
     position: relative;
     margin-left: 0 !important;
+    box-sizing: border-box;
   }
 
   .about-myself > * {
@@ -534,6 +535,8 @@
     /* width: 87.5rem; */
     width: 100%;
     background-image: url(images/contact-form-back.png);
+    background-size: 108% 616px;
+    padding-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -542,7 +545,8 @@
     margin-top: 0;
     position: absolute;
     transform: translateY(100%);
-    box-sizing: border-box;
+
+    /* box-sizing: border-box; */
   }
 
   .contact {
