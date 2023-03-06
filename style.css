@@ -345,6 +345,7 @@ a:hover {
   flex-direction: column;
   width: auto;
   margin-bottom: 113.85px;
+  list-style: none;
 }
 
 .lang-title {

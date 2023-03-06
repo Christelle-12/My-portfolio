@@ -755,4 +755,16 @@
   #platforms {
     display: none;
   }
+
+  .lang-title .downarrow {
+    display: none;
+  }
+
+  .newlist .new-nested-li {
+    display: none;
+  }
+
+  #platforms div li {
+    display: none;
+  }
 }
