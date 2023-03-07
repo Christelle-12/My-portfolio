@@ -128,8 +128,8 @@ You can deploy this project using:
 Example:
 
 ```sh
-Live Demo at 
-<a href="#https://christelle-12.github.io/My-portfolio/">https://christelle-12.github.io/My-portfolio/</a>
+ Check out the Live Demo at [here](https://christelle-12.github.io/My-portfolio/).
+
 ```
 
 
