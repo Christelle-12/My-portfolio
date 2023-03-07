@@ -41,6 +41,11 @@
     font-size: 18px;
     color: #344563;
     font-style: normal;
+    animation-name: navigation;
+  }
+
+  .desktop-list li a:hover {
+    color: orangered;
   }
 
   .toolbar {
