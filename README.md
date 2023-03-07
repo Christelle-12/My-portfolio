@@ -128,7 +128,7 @@ You can deploy this project using:
 Example:
 
 ```sh
- Check out the Live Demo at [here](https://christelle-12.github.io/My-portfolio/).
+ Check out the Live Demo at https://christelle-12.github.io/My-portfolio/.
 
 ```
 
