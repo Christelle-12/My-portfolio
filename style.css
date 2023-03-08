@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-weight: 900;
+  font-style: normal;
+}
+
 body {
   background: #e5e5e5;
 }
@@ -80,8 +112,6 @@ a:hover {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  text-align: justify;
-  text-justify: inter-word;
   width: auto;
   height: 150px;
   padding-right: 20px;
@@ -116,7 +146,8 @@ a:hover {
 .grid-items {
   display: flex;
   flex-direction: column;
-  align-items: left;
+
+  /* align-items: left; */
   padding: 16px;
   gap: 12px;
   background: #fff;
@@ -448,7 +479,7 @@ a:hover {
   padding-bottom: 50px;
 }
 
-.contact h1 {
+.contact h2 {
   font-family: "poppins", sans-serif;
   color: white;
   font-weight: 700;

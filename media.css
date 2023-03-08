@@ -45,7 +45,7 @@
   }
 
   .desktop-list li a:hover {
-    color: orangered;
+    color: #396df2;
   }
 
   .toolbar {
@@ -66,6 +66,7 @@
   .logo-place :hover {
     margin-left: 12px;
     transform: rotate(90deg);
+    background-color: #fff;
   }
 
   .my-logo {
@@ -234,7 +235,7 @@
   }
 
   .second-li {
-    color: #6070ff;
+    color: #333;
     width: 3.571428rem;
     height: 30px;
     list-style: none;
@@ -273,10 +274,11 @@
     width: fit-content;
     align-self: center;
     font-family: "poppins", sans-serif;
-    font-size: 18.5px;
+    font-size: 17.8px;
     font-weight: 550;
     letter-spacing: 0.03em;
     color: #396df2;
+    box-sizing: border-box;
   }
 
   /* second-desktop-card */
@@ -401,7 +403,7 @@
   }
 
   .fifth-li {
-    color: #6070ff;
+    color: #333;
     width: 5.714285rem;
     height: 2.142857rem;
     list-style: none;
@@ -451,7 +453,7 @@
   }
 
   #connect {
-    color: #7f8cff;
+    color: #333;
     margin-left: 120px;
     font-family: "poppins", sans-serif;
     font-weight: 500;
@@ -519,7 +521,7 @@
   }
 
   .hex {
-    color: #396df2;
+    color: #333;
     width: 10rem;
     height: 1.4rem;
     font-family: "poppins", sans-serif;
@@ -564,7 +566,7 @@
     padding-bottom: 50px;
   }
 
-  .contact h1 {
+  .contact h2 {
     font-family: "poppins", sans-serif;
     color: white;
     font-weight: 700;
@@ -579,7 +581,7 @@
     line-height: 28px;
     letter-spacing: 0;
     text-align: center;
-    color: #ebebff;
+    color: #020914;
     margin-top: 220px;
   }
 
@@ -626,7 +628,7 @@
     font-weight: 500;
     font-style: normal;
     font-size: 17px;
-    color: #6070ff;
+    color: #333;
     border-color: white;
   }
 
@@ -639,7 +641,7 @@
     display: none;
   }
 
-  #platforms div {
+  #platforms {
     display: flex;
     background-color: #fff;
     width: 9.5rem;
@@ -649,7 +651,7 @@
     align-content: baseline;
   }
 
-  #platforms div li {
+  #platforms li {
     list-style: none;
   }
 
@@ -693,6 +695,13 @@
   #java p {
     font-family: "poppins", sans-serif;
     font-size: 1rem;
+  }
+
+  #html1 {
+    background-color: #f7f7f9;
+    width: 6.5rem;
+    padding-right: 2rem;
+    border-radius: 8px;
   }
 
   #html {
