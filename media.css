@@ -564,7 +564,7 @@
     padding-bottom: 50px;
   }
 
-  .contact h1 {
+  .contact h2 {
     font-family: "poppins", sans-serif;
     color: white;
     font-weight: 700;
@@ -639,7 +639,7 @@
     display: none;
   }
 
-  #platforms div {
+  #platforms {
     display: flex;
     background-color: #fff;
     width: 9.5rem;
@@ -649,7 +649,7 @@
     align-content: baseline;
   }
 
-  #platforms div li {
+  #platforms li {
     list-style: none;
   }
 
@@ -693,6 +693,13 @@
   #java p {
     font-family: "poppins", sans-serif;
     font-size: 1rem;
+  }
+
+  #html1 {
+    background-color: #f7f7f9;
+    width: 6.5rem;
+    padding-right: 2rem;
+    border-radius: 8px;
   }
 
   #html {
