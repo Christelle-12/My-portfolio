@@ -45,9 +45,9 @@
   .open .fermer {
     display: block;
     position: fixed;
-    right: 10px;
+    right: 3.5rem;
     margin-right: 40px;
-    top: 10px;
+    top: 5rem;
   }
 
   .desktop-list {
