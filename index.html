@@ -8,31 +8,43 @@
     <title>MyPortfolio</title>
     <link rel="stylesheet" href="style.css" >
     <link rel="stylesheet" href="media.css"/>
+    <link rel="stylesheet" href="interact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-*********************" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="activeb">
     <div class="main-wrapper">
         <header class="toolbar">
-            <div class="logo-place">
-                <a href="./index.html" class="my-logo hex">My Logo</a>
+            <div class="header-mobile">
+                <div class="logo-place">
+                    <a href="./index.html" class="my-logo hex">My Logo</a>
+                </div>
+                <nav>
+                    <!-- <figure class="menu">
+                        <img src="images/Icons/Union.png" alt="Icons" class="menuIcon" />
+                        <img src="images/Icons/Icon.png" alt="exit-icon" class="exit-icon">
+                    </figure> -->
+                    <div class="toggle">
+                                    <i class="fas fa-bars ouvrir" ></i>
+                                    <i class="fas fa-times fermer"></i>
+                    </div>
+                    <ul class="desktop-list">
+                        <li>
+                            <a href="#">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <figure class="menu">
-                    <img src="images/Icons/Union.png" alt="Icons" />
-                </figure>
-                <ul class="desktop-list">
-                    <li>
-                        <a href="#">portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav>
         </header>
+
+
         <section class="headline">
             <h1>I’m Christelle <br> Glad to see you!</h1>
             
@@ -428,7 +440,7 @@
         </div>
 
     </div>
-    
+    <script src="portfolio.js"></script>
 </body>
 
 </html>

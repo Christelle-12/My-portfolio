@@ -734,11 +734,22 @@
   .frameworks .sign {
     margin-top: 18%;
   }
+
+  .menu-item {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .desktop-list {
     display: none;
+    flex-direction: column;
+    list-style-type: none;
+  }
+
+  .desktop-list li a {
+    text-decoration: none;
+    color: blue;
   }
 
   .second-desk-card {
