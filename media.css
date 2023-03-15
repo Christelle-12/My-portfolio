@@ -747,6 +747,10 @@
   .menu-item {
     display: none;
   }
+
+  .toggle {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {

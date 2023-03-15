@@ -71,6 +71,10 @@
     padding-left: 30px;
     color: white;
   }
+
+  .menu {
+    display: none;
+  }
 }
 
 .open .desktop-list li a {
