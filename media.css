@@ -26,7 +26,6 @@
   .menu {
     display: none;
   }
-  
 
   .desktop-list {
     list-style: none;
@@ -49,10 +48,10 @@
   .desktop-list li a:hover {
     color: #396df2;
   }
+
   .toolbar {
     width: 100%;
     padding-top: 20px;
-    
   }
 
   .header-mobile {
@@ -65,6 +64,7 @@
     padding-bottom: 40px;
     padding-top: 10px;
   }
+
   .header-mobile nav {
     padding-right: 7rem;
     padding-top: 3rem;
@@ -649,7 +649,7 @@
     display: none;
   }
 
-  #platforms div{
+  #platforms div {
     display: flex;
     flex-direction: row;
     background-color: #fff;
