@@ -50,6 +50,25 @@ a:hover {
   border-bottom-left-radius: 80px;
 }
 
+.open body {
+  background-color: #6070ff;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  padding-top: 1rem;
+  background-color: #fff;
+}
+
+.navbar .container-fluid .navbar-brand {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 20px;
+}
+
 .toolbar {
   flex: 1 1 auto;
   display: flex;
