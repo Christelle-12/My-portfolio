@@ -18,7 +18,7 @@ toggle.addEventListener('click', () => {
   body.classList.toggle('open');
 });
 
-menuOptions.forEach(option => {
+menuOptions.forEach((option) => {
   option.addEventListener('click', () => {
     const body = document.querySelector('body');
     body.classList.remove('open');

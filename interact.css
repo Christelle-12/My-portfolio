@@ -70,6 +70,7 @@
     align-items: start;
     padding-left: 30px;
     color: white;
+    gap: 25px;
   }
 
   .menu {
