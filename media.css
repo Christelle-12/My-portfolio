@@ -26,12 +26,14 @@
   .menu {
     display: none;
   }
+  
 
   .desktop-list {
     list-style: none;
     display: flex;
     gap: 26px;
     padding-right: 20%;
+    margin-right: 30%;
   }
 
   .desktop-list li a {
@@ -47,8 +49,13 @@
   .desktop-list li a:hover {
     color: #396df2;
   }
-
   .toolbar {
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+
+  .header-mobile {
     flex: 1 1 auto;
     display: flex;
     height: 48px;
@@ -58,9 +65,14 @@
     padding-bottom: 40px;
     padding-top: 10px;
   }
+  .header-mobile nav {
+    padding-right: 7rem;
+    padding-top: 3rem;
+  }
 
-  .logo-place {
+  .header-mobile .logo-place {
     margin-left: 12px;
+    padding-top: 3rem;
   }
 
   .logo-place :hover {
@@ -69,7 +81,7 @@
     background-color: #fff;
   }
 
-  .my-logo {
+  .header-mobile .my-logo {
     padding: 10px 12px 10px 12px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -128,8 +140,6 @@
     gap: 12px;
     border-top-right-radius: 100px;
     margin-right: 50px;
-
-    /* margin-top: 4535px; */
   }
 
   .container-cards {
@@ -144,8 +154,6 @@
   .second-desk-card {
     display: grid;
     grid-template-columns: 544px 612px;
-
-    /* width: 75.8%; */
     width: 65%;
     height: 492px;
     gap: 22px;
@@ -641,8 +649,9 @@
     display: none;
   }
 
-  #platforms {
+  #platforms div{
     display: flex;
+    flex-direction: row;
     background-color: #fff;
     width: 9.5rem;
     margin-left: 4.5rem;
