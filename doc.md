@@ -1,5 +1,3 @@
-// const { data } = require("remark");
-
 const data = [
   {
     name: "Tonic",
@@ -38,40 +36,40 @@ const data = [
     sourceLink: "https://github.com/Christelle-12/My-portfolio"
   }
 ];
+
 const popupSection = document.createElement('div');
-popupSection.className ='popup-container';
-let content = '';
-data.forEach((item) => {
-  content = `
-  <div class="popup-details-container">
-    <span class="popup-name-image">
-      <h1 class="popup-name">${item.name}</h1>
-      <img src=${item.closeImg} class="popup-image"> 
-    </span>
-    <ul class="popup-unorded-list">
-    ${item.technologies.map((itemList) => `<li class="popup-list">${itemList}</li>`).join('')}
-    </ul>
-    <span class="desktop-diff">
-      <img src=${item.featureImg} class="popup-feature-img">
-      <div class="left-side">
-        <p class="popup-description">${item.description}</p>
-        <span class="popup-button">
-          <button class="button popup-button-1">
-            <a href=${item.liveLink}>See Project</a>
-            <img src="./images/see live.svg">
-          </button>
-          <button class="button popup-button-1">
-            <a href=${item.sourceLink}>See Source</a>
-            <img src="./images/Frame22.svg">
-          </button>
-        </span>
-      </div>
-    </span>
-    
-  </div> 
+popupSection.className = 'popup-container';
+
+function generatePopupContent(item) {
+  return `
+    <div class="popup-details-container">
+      <span class="popup-name-image">
+        <h1 class="popup-name">${item.name}</h1>
+        <img src=${item.closeImg} class="popup-image"> 
+      </span>
+      <ul class="popup-unorded-list">
+        ${item.technologies.map(itemList => `<li class="popup-list">${itemList}</li>`).join('')}
+      </ul>
+      <span class="desktop-diff">
+        <img src=${item.imageSrc} class="popup-feature-img">
+        <div class="left-side">
+          <p class="popup-description">${item.description}</p>
+          <span class="popup-button">
+            <button class="button popup-button-1">
+              <a href=${item.liveLink}>See Project</a>
+              <img src="images/Icons/live.svg">
+            </button>
+            <button class="button popup-button-1">
+              <a href=${item.sourceLink}>See Source</a>
+              <img src="images/Icons/frame.svg">
+            </button>
+          </span>
+        </div>
+      </span>
+    </div>
   `;
-});
-const seeProject = document.querySelectorAll('.project-container');
+}
+
 popupSection.innerHTML = content;
 function closePopup() {
   document.body.removeChild(popupSection);
