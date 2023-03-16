@@ -495,12 +495,6 @@ section.mobile-menu a {
   font-weight: 400;
 }
 
-/* .form {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-} */
-
 .text {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
