@@ -12,3 +12,19 @@ menuOptions.forEach((option) => {
     body.classList.remove('open');
   });
 });
+
+// const seeProjectBtn = document.querySelector('.project-container button');
+// const popupContainer = document.querySelector('#popup-container');
+// const closeBtn = document.querySelector('.close-btn');
+
+// seeProjectBtn.addEventListener('click', () => {
+//   popupContainer.classList.toggle('show');
+// });
+
+// closeBtn.addEventListener('click', () => {
+//   popupContainer.classList.remove('show');
+// });
+
+// popup-window
+
+

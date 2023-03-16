@@ -760,6 +760,10 @@
   .toggle {
     display: none;
   }
+  /* .popup1T {
+    display: none;
+  } */
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -772,6 +776,9 @@
   .desktop-list li a {
     text-decoration: none;
     color: blue;
+  }
+  #popup-container {
+    display: none;
   }
 
   .second-desk-card {
