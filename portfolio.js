@@ -1,14 +1,18 @@
-const toggle = document.querySelector('.toggle');
-const body = document.querySelector('body');
-const menuOptions = document.querySelectorAll('.desktop-list a');
+const menuBtn = document.getElementById('menu-close-btn');
+const menuSection = document.querySelector('section.mobile-menu');
+const closeButton = document.getElementById('close-btn');
+const menuItems = document.getElementsByClassName('menu-item');
 
-toggle.addEventListener('click', () => {
-  body.classList.toggle('open');
+for (let i = 0; i < menuItems.length; i += 1) {
+  menuItems[i].addEventListener('click', () => {
+    menuSection.classList.remove('visible');
+  });
+}
+
+menuBtn.addEventListener('click', () => {
+  menuSection.classList.add('visible');
 });
 
-menuOptions.forEach((option) => {
-  option.addEventListener('click', () => {
-    const body = document.querySelector('body');
-    body.classList.remove('open');
-  });
+closeButton.addEventListener('click', () => {
+  menuSection.classList.remove('visible');
 });
