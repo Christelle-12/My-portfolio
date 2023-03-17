@@ -552,13 +552,12 @@ section.mobile-menu a {
 }
 
 .error-message {
-  background-color: #f00;
   padding: 1.5rem;
-  color: #fff;
-  font-size: 1.6rem;
-  border: 1px dashed #fff;
+  color: #ca0f0f;
+  font-size: 2.5rem;
   border-radius: 8px;
   margin: 5px 0;
+  font-family: sans-serif;
 }
 
 /* desktop version css styles */
