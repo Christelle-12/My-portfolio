@@ -16,7 +16,7 @@ menuBtn.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
   menuSection.classList.remove('visible');
 });
- 
+
 // form validation
 // get form elements
 const form = document.querySelector('.form');
@@ -27,16 +27,15 @@ form.addEventListener('submit', (event) => {
   // prevent default form submission behavior
   event.preventDefault();
 
-// check if email is in lowercase
-if (emailInput.value === emailInput.value.toLowerCase()) {
-// email is in lowercase, submit the form
-  form.submit();
-} else {
+  // check if email is in lowercase
+  if (emailInput.value === emailInput.value.toLowerCase()) {
+    // email is in lowercase, submit the form
+    form.submit();
+  } else {
   // email is not in lowercase, show error message
-  const errorMsg = document.querySelector('.error-message');
-  errorMsg.textContent = 'Email should be in lowercase.';
-  errorMsg.style.color = '#FF4136';
-  submitBtn.insertAdjacentElement('afterend', errorMsg);
-   }
+    const errorMsg = document.querySelector('.error-message');
+    errorMsg.textContent = 'Email should be in lowercase.';
+    errorMsg.style.color = '#FF4136';
+    submitBtn.insertAdjacentElement('afterend', errorMsg);
+  }
 });
-
