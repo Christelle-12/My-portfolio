@@ -27,7 +27,15 @@
 
 > My project is a simple portfolio setup.
 
-**Mobile project setup** is a project 
+
+**Desktop version**
+![image](https://user-images.githubusercontent.com/105784335/232078970-57a1435c-1e02-49a0-9783-37d6e13d53be.png)
+
+
+**mobile version**
+
+![image](https://user-images.githubusercontent.com/105784335/232079976-2fa01ed1-5646-49a4-9139-7fa3e53a8802.png)
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -124,16 +132,9 @@ Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters
 
 ### Deployment
 
-You can deploy this project using:
+the site is deployed below:
 
-
-Example:
-
-```sh
- Check out the Live Demo at https://christelle-12.github.io/My-portfolio/.
-
-```
-
+ <a href="https://christelle-12.github.io/My-portfolio/."> Check out the Live Demo here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
