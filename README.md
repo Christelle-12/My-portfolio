@@ -26,7 +26,7 @@
 # 📖 Hello Microverse <a name="about-project"></a>
 
 > My project is a simple portfolio setup.
-
+**SCREENSHOTS:**
 
 **Desktop version**
 ![image](https://user-images.githubusercontent.com/105784335/232078970-57a1435c-1e02-49a0-9783-37d6e13d53be.png)
