@@ -39,3 +39,15 @@ form.addEventListener('submit', (event) => {
     submitBtn.insertAdjacentElement('afterend', errorMsg);
   }
 });
+const dropdown = document.querySelector('.dropdown');
+const dropIcon = document.querySelector('.drop');
+
+dropIcon.addEventListener('click', () => {
+  dropdown.classList.toggle('visible');
+});
+
+document.addEventListener('click', (e) => {
+  if (!e.target.matches('.dropdown')) {
+    dropdown.classList.remove('visible');
+  }
+});

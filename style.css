@@ -2,12 +2,26 @@ html {
   font-size: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: #6672db;
+}
+
+a:hover {
+  color: rgb(160, 27, 10);
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   width: 100%;
   background: #f7f3f3;
+}
+
+.emailadd {
+  color: #344563;
+  font-size: 2.5rem;
 }
 
 .header {
@@ -238,6 +252,7 @@ section.mobile-menu a {
 
 .project-1 {
   width: 100%;
+  margin-top: 5rem;
 
   /* transition: transform 0.5s ease-out; */
 }
