@@ -248,6 +248,22 @@ section.mobile-menu a {
   margin: 0 2.4rem;
   gap: 1.2rem;
   font-family: "Poppins", sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects:hover {
+  transform: translateX(100px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projects img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.projects img:hover {
+  transform: scale(1.05);
 }
 
 .project-1 {
