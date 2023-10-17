@@ -2,12 +2,26 @@ html {
   font-size: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: #6672db;
+}
+
+a:hover {
+  color: rgb(160, 27, 10);
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   width: 100%;
   background: #f7f3f3;
+}
+
+.emailadd {
+  color: #344563;
+  font-size: 2.5rem;
 }
 
 .header {
@@ -57,15 +71,27 @@ section.mobile-menu a {
   font-size: 32px;
   line-height: 44px;
 }
-
 .logo {
-  font-family: "Poppins", sans-serif;
-  color: #6070ff;
-  font-size: 1.8rem;
+  font-family: "Desired Font", cursive;
+  color: #8b4513;;
+  font-size: 2.8rem;
   font-weight: 700;
   line-height: 2rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   text-decoration: none;
+  animation: logoPulse 1s infinite alternate;
 }
+
+@keyframes logoPulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+
 
 .links {
   display: none;
@@ -234,10 +260,27 @@ section.mobile-menu a {
   margin: 0 2.4rem;
   gap: 1.2rem;
   font-family: "Poppins", sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects:hover {
+  transform: translateX(100px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projects img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.projects img:hover {
+  transform: scale(1.05);
 }
 
 .project-1 {
   width: 100%;
+  margin-top: 5rem;
 
   /* transition: transform 0.5s ease-out; */
 }
