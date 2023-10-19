@@ -27,9 +27,8 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-  padding: 2.4rem 3.6rem 0 2.4rem;
+  background-color: #0E1D33;
+  padding: 2.4rem 3.6rem 0 2.4rem;   
 }
 
 .menu-close-btn {
@@ -73,7 +72,7 @@ section.mobile-menu a {
 }
 .logo {
   font-family: "Desired Font", cursive;
-  color: #8b4513;;
+  color: #d0e9ed;;
   font-size: 2.8rem;
   font-weight: 700;
   line-height: 2rem;
@@ -622,7 +621,6 @@ section.mobile-menu a {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 2rem;
-    color: #344563;
   }
 
   .mobile-menu {
@@ -631,10 +629,11 @@ section.mobile-menu a {
 
   .links li {
     list-style: none;
+    
   }
 
   .links a {
-    color: #344563;
+    color: #fff;
     text-decoration: none;
   }
 
